@@ -1,0 +1,17 @@
+command:-
+=================================
+----------------------------
+ubuntu
+----------------------------
+#apt-cache pkgnames - to list install package
+#apt-cache show netcat - to check package info
+#apt-cache search vsftpd - to find out package name and description
+#apt-cache pkgnames vsftpd to find and list down all the packages starting with vsftpd
+#apt-cache showpkg vsftpd - to check package dependencies.
+# apt-cache stats - to check the statistics of cache.
+#apt-get purge vsftpd - to remove package completely with it's configuration file.
+$ sudo apt-get --download-only source vsftpd - to download only the source of package.
+$ sudo apt-get autoclean - clean the cache.  
+----------------------------
+CENTOS
+----------------------------
